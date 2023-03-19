@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+body{
+   font-family: 'Montserrat', sans-serif; 
+   font-weight: 800px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* --------------------------------- NAVBAR SECTION --------------------------------- */
+
+.header_section{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header_background{
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 1200px;
+    background-image: url("../image/navbar-background.png");
+    background-size: cover;
+    background-position: center;
+}
+.header_background-eclipse{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 1000px;
+    background-image: url("../image/eclipse.png");
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 54px 0;
+    border-bottom: 1px solid #EFB900;
+  }
+  
+ .navbar_logo{
+    width: 98px;
+    height: 98px;
+    background-image: url("../image/logo.png");
+    background-size: cover;
+    background-position: center;
+    margin: 21px 103px 20px 82px;
+}
+  
+  .navbar_links a {
+    text-decoration: none;
+  }
+  
+  .navbar_links a:hover {
+    color: #EFB900;
+  }
+  
+  .navbar_phone {
+    display: flex;
+    margin:0 auto 0 226px;
+  }
+  
+  .navbar_phone a {
+    text-decoration: none;
+    margin: 0 160px 0 13px;
+  }
+
+  .navbar_phone-image{
+    width: 22px;
+    height: 22px;
+    background-image: url("../image/phone.png");
+  }
+  div a:not(:last-child){
+    margin-right: 78px;
+  }
+
+.dropdown-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Raleway';
+    color: #546e7a;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    display: block;
+  }
+  
+  .dropdown-menu a:hover {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .dropdown-menu a.selected {
+    background-color: transparent;
+  }
+  
+  .dropdown-menu a.selected:hover {
+    background-color: transparent;
+    color: #546e7a;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .white {
+    color: #fff;
+    margin-left: -4px;
+  }
+  
+  .show-selected {
+    background-color: #ffffff;
+  }
+  
+  .custom-selected {
+    margin: 30px;
+    display: inline-block;
+  }
+  
+  
+/* --------------------------------- NAVBAR SECTION --------------------------------- */
